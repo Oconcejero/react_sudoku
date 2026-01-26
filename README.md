@@ -6,7 +6,7 @@ Repositorio con ejercicio de videojuego en REACT.
 
 ## Descripción 📝
 
-Proyecto realizado con REACTdel famoso juego SUDOKU en diferentes niveles.
+Proyecto realizado con REACT del famoso juego SUDOKU en diferentes niveles.
 
 ## Vista previa en vivo 👀
 Puedes ver los ejercicios funcionando aquí: <br>
