@@ -173,13 +173,9 @@ const Tablero = () => {
                   ${indiceDeLaColumna === 8 ? "borde-der" : ""}
                   ${indiceDeLaFila === 8 ? "borde-abajo" : ""}
                 `}
-                style={{
-                  backgroundColor: error[indiceDeLaFila][indiceDeLaColumna]
-                    ? "salmon"
-                    : undefined,
-                }}
                 value={celda === 0 ? "" : String(celda)}
                 onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                  if (fijas[indiceDeLaFila][indiceDeLaColumna]) return;
                   const numeroIngresadoPorElUsuario = e.target.value;
                   if (!/^[1-9]?$/.test(numeroIngresadoPorElUsuario)) return;
 
