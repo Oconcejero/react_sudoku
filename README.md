@@ -13,4 +13,4 @@ Puedes ver los ejercicios funcionando aquí: <br>
 🔗 https://oconcejero.github.io/react_sudoku/
 
 
-Puedes ver una vista previa en vivo de la página. ![Web Spa](img/MINIATURAS_PORT_09.jpg)
+Puedes ver una vista previa en vivo de la página. ![Web Spa](img/react_sudoku.png)
